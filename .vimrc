@@ -6,7 +6,7 @@ set background=dark
 syntax on 
 set autoindent
 set smartindent
-colorscheme  default
+colorscheme jellybeans
 set tabstop=4
 set shiftwidth=4
 set showmatch
@@ -19,3 +19,5 @@ set hlsearch
 
 au BufWinLeave ?* mkview
 au BufWinEnter ?* silent loadview
+
+let Tlist_Ctags_Cmd="/usr/local/bin/ctags"
