@@ -8,6 +8,7 @@ set autoindent
 set smartindent
 colorscheme jellybeans
 set tabstop=4
+set expandtab
 set shiftwidth=4
 set showmatch
 set guioptions-=T
@@ -20,4 +21,5 @@ set hlsearch
 au BufWinLeave ?* mkview
 au BufWinEnter ?* silent loadview
 
+set fileencodings=utf-8,gb18030,utf-16,big5
 let Tlist_Ctags_Cmd="/usr/local/bin/ctags"
